@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Alertsection from "./components/Alertsection";
+import Firstsection from "./components/Firstsection";
+import Secondsection from "./components/Secondsection";
+import Thirdsection from "./components/Thirdsection";
+import Fourthsection from "./components/Fourthsection";
+import Fifthsection from "./components/Fifthsection";
+import Sixthsection from "./components/Sixthsection";
+//import Random from "./components/Random"
+
+
+
+import Footer from "./components/Footer";
+//import AppleYoutube from "./components/AppleYoutube";
+import Youtube from "./components/Youtube";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Header />
+    <Alertsection />
+    <Firstsection />
+    <Secondsection />
+    <Thirdsection />
+    <Fourthsection />
+    <Fifthsection />
+    <Sixthsection />
+    {/* <Random /> */}
+    {/* <AppleYoutube /> */}
+    <Youtube />
+    <Footer />
+    
     </div>
   );
 }
